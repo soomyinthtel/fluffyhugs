@@ -10,6 +10,7 @@ const JumpyText = ({ text }) => {
         style={{
           animationDelay: `${index * 0.1}s`,
         }}
+        className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"
       >
         {letter}
       </span>
@@ -19,7 +20,8 @@ const JumpyText = ({ text }) => {
   return (
     <div
       className={classNames(
-        "text-2xl sm:text-4xl font-bold mb-24 relative z-20",
+        "text-2xl sm:text-6xl font-bold mb-24 relative z-20",
+
         classes.jumpy
       )}
     >

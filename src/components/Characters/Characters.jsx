@@ -173,7 +173,7 @@ const Characters = () => {
 
   return (
     <div className="flex items-center justify-center h-screen w-full overflow-hidden fixed pointer-events-none top-0 left-0">
-      <div className="w-[1024px] lg:w-[600px] aspect-[1/2] transition-all min-w-[500px]">
+      <div className="w-[1024px] lg:w-[600px] aspect-[1/2] transition-all">
         <div className="relative">
           {characters.map((character, index) => {
             const currentLine = Math.floor(index / 5);
